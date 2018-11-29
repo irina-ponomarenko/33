@@ -6751,6 +6751,9 @@ fieldset > .container > input {
         font-size: 16px;
         line-height: 20px
     }
+    .step_wrapp{
+        flex-direction: column-reverse !important;
+    }
 }
 
 @media only screen and (min-width: 769px) {
