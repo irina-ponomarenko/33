@@ -6539,7 +6539,27 @@ fieldset > .container > input {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        padding-left: 150px
+        padding-left: 150px;
+        background-size: 30%;
+        height: 92px;
+    }
+    .cat_rside {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .top_mnu{
+        flex-flow: nowrap;
+    }
+    a.sign{
+        white-space: nowrap;
+        padding: 0 15px;
+    }
+    .top_mnu a{
+        line-height: 34px;
+    }
+    .home_categ_cont{
+        padding: 20px 0 30px;
     }
 
     .works {
